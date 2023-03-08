@@ -7,7 +7,7 @@ public class IncomeServices {
 
         for (int month = 0; month < 12; month++) {
 
-            if (threshold >= income * 2) {
+            if (threshold >= income * 1.5) {
                 count++;
                 threshold = threshold / 3;
 
